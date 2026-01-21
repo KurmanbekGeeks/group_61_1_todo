@@ -6,4 +6,6 @@ SELECT * FROM tasks;
 
 INSERT INTO tasks (task) VALUES ('Сходить на концерт');
 
-UPDATE tasks SET task = 'Купить машину'
+UPDATE tasks SET task = 'Купить машину';
+
+ALTER TABLE tasks ADD COLUMN completed INTEGER DEFAULT 0;
